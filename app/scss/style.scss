@@ -140,7 +140,7 @@
   flex-wrap: wrap;
 }
 .product__item{
-  max-width: 442px;
+  max-width: 370px;
   width: 100%;
   box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
   margin-bottom: 30px;
@@ -383,8 +383,48 @@
 
 }
 
-
-
-
-
 //  end author
+
+// start tutorial
+
+.tutorial{
+  padding: 70px 0 120px;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item{
+    max-width: 370px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+   
+  }
+}
+.tutorial__item{
+  &-images{
+    min-height: 270px;
+    background-repeat: no-repeat;
+  }
+  &-title{
+    background-color: #f8f8f8;
+    font-size: 24px;
+    text-align: center;
+    @include f700;
+    padding: 30px 10px;
+    color: $bg;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+// end tutorial
